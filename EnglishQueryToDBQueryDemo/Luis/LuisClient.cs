@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Web;
 using Newtonsoft.Json;
 
-namespace EnglishQueryToDBQueryDemo.LuisProxy
+namespace Luis
 {
     public class LuisClient
     {
@@ -44,6 +44,15 @@ namespace EnglishQueryToDBQueryDemo.LuisProxy
             {
                 return null;
             }
+        }
+
+        public string DBQuery(LuisResponse response)
+        {
+            var result = string.Empty;
+
+
+
+            return result;
         }
 
     }

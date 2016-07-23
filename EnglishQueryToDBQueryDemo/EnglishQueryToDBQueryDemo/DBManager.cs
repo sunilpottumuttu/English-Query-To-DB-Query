@@ -53,6 +53,23 @@ namespace EnglishQueryToDBQueryDemo
             m_dbConnection.Close();
         }
 
+
+        public void Execute(string sql)
+        {
+            var m_dbConnection = new SQLiteConnection("Data Source=Weather.db;Version=3;");
+            m_dbConnection.Open();
+            //string sql = "select * from weather";
+            SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
+            SQLiteDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                var cityName = reader["CityName"];
+                var temp = reader["Tempreature"];
+                Console.WriteLine($"CityName: {cityName}   Temp:{temp}");
+            }
+            m_dbConnection.Close();
+        }
+
         public void ExecuteCommand(string commandText)
         {
             Command = new SQLiteCommand(Connection) { CommandText = commandText };

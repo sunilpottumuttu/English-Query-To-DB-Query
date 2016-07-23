@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnglishQueryToDBQueryDemo.LuisProxy
+namespace Luis
 {
     public class LuisResponse
     {
