@@ -10,7 +10,7 @@ The POC Application contains
 Ex NLP Query:-
 What is the Tempreature in Delhi
 
-Application Converts Mapped Database Query and fetches the records
+Application Converts Mapped Database Query and fetches the records<br/>
 Select Tempreature from Weather where cityname='Delhi'
 
 Where Tempreature is column name in Weather Table.
