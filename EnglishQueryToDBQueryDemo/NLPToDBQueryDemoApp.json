@@ -1,0 +1,114 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "NLPToDBQueryDemoApp",
+  "desc": "Demo/POC Application on Converting English(Natural Language) Query  to Database Query",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "GetWeather"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Location"
+    }
+  ],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "what is the weather like in cairo",
+      "intent": "GetWeather",
+      "entities": [
+        {
+          "entity": "Location",
+          "startPos": 6,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "how's the weather in london",
+      "intent": "GetWeather",
+      "entities": [
+        {
+          "entity": "Location",
+          "startPos": 6,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "weather in cairo",
+      "intent": "GetWeather",
+      "entities": [
+        {
+          "entity": "Location",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "weather in delhi",
+      "intent": "GetWeather",
+      "entities": [
+        {
+          "entity": "Location",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "what is the temperature in delhi",
+      "intent": "GetWeather",
+      "entities": [
+        {
+          "entity": "Location",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "tell me temperature in delhi",
+      "intent": "GetWeather",
+      "entities": [
+        {
+          "entity": "Location",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "temp in mumbai",
+      "intent": "GetWeather",
+      "entities": [
+        {
+          "entity": "Location",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "tell me temp in mumbai",
+      "intent": "GetWeather",
+      "entities": [
+        {
+          "entity": "Location",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    }
+  ]
+}
