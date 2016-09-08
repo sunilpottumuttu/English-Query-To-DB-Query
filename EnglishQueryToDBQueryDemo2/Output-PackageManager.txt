@@ -1,0 +1,4 @@
+﻿Attempting to gather dependency information for package 'Flurl.Http.1.0.1' with respect to project 'EnglishQueryToDBQueryDemo2', targeting '.NETFramework,Version=v4.6.1'
+Attempting to resolve dependencies for package 'Flurl.Http.1.0.1' with DependencyBehavior 'Lowest'
+Resolving actions to install package 'Flurl.Http.1.0.1'
+Resolved actions to install package 'Flurl.Http.1.0.1'
